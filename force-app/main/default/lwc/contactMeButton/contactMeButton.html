@@ -1,0 +1,37 @@
+<template>
+    <dialog class="contact-dialog">
+        <h1 style="font-size: x-large;"><b>Contact Me</b></h1>
+
+        <form onsubmit={handleSubmit}>
+            <label for = "first-name"> First Name
+                <input type="text" class="firstname" onchange={changeHandler}  name="first-name" />
+            </label>
+
+            <label for = "last-name"> Last Name
+                <input type="text"  class="lastname" onchange={changeHandler} name="last-name" />
+            </label>
+
+            <label for = "company"> Company
+                <input type="text"  class="company"  onchange={changeHandler} name="company" />
+            </label>
+            <label for = "email"> Email
+                <input type="email" class="email"  onchange={changeHandler} name="email" />
+            </label>
+
+            <textarea cols="40" rows="4"  class="description" placeholder="What would you like to talk about?"></textarea>
+            
+
+        <div class="btn-container">
+            <input type="submit">
+            <button onclick={closeDialog}>Cancel</button>
+        </div>
+        </form>
+
+      
+    </dialog>
+
+    <button onclick={showDialog}> Contact Me</button>
+
+    <c-snackbar></c-snackbar>
+    
+</template>
