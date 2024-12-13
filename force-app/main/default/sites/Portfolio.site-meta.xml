@@ -23,8 +23,9 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>test-mry5jsyk6lj7@example.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>test-mry5jsyk6lj7@example.com</siteGuestRecordDefaultOwner>
+    <serverIsDown>SNA_RcsSm_sf_default_cdn_Portfolio1</serverIsDown>
+    <siteAdmin>konkathi.divya@wipro.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>konkathi.divya@wipro.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>Portfoliovforcesite</urlPathPrefix>
 </CustomSite>
